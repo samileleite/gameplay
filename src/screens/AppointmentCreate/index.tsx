@@ -85,10 +85,11 @@ export function AppointmentCreate() {
 
         >
             <Background>
+                <Header
+                    title="Agendar partida"
+                />
+
                 <ScrollView>
-                    <Header
-                        title="Agendar partida"
-                    />
 
                     <Text
                         style={[
